@@ -20,7 +20,15 @@ import "os"*/
 
 
 func main() {
-	fmt.Println("hello, world.你好,世界");
+	//hello world
+	fmt.Println("hello, world.你好,世界");//Go全部采用了UTF8编码
+	//const home  = os.Getenv("path")
+
+
+
+
+
+/*
  	var a int = 8;
 	var b int = 6;
 
@@ -30,6 +38,8 @@ func main() {
 	fmt.Println(p);
 	const home  = os.Getenv("path");
 	fmt.Println(home);
+	fmt.Println(p)
+
 	a,b = b,a;
 	fmt.Println(a,b);
 	var c,d int = testfunc(a,b);
@@ -37,6 +47,9 @@ func main() {
 	//var nickName string;
 	//_,_,nickName := getName();
 	fmt.Println(getName())
+//	var nickName string;
+//	_,_,nickName := getName();
+	fmt.Println(getName())*/
 }
 
 func testfunc(a int,b int)(add int ,sub int) {
