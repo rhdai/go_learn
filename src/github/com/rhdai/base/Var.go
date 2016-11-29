@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	/*
 	    1.变量定义
 		关键字 var ,类型信息放在变量名之后;
@@ -11,16 +11,16 @@ func main()  {
 	*/
 	var v1 int;
 	var v2 string;
-	var v3 [10]int;//数组
-	var v4 []int;//数组切片
-	var v5 struct{
+	var v3 [10]int; //数组
+	var v4 []int; //数组切片
+	var v5 struct {
 		f int;
 	}
-	var v6 *int;//指针
-	var v7 map[int]string;//map key是int value是string
+	var v6 *int; //指针
+	var v7 map[int]string; //map key是int value是string
 	var v8 func(a int) int;
 
-	var(
+	var (
 		v9 int;
 		v10 string;
 	)
@@ -50,7 +50,7 @@ func main()  {
 	fmt.Println(v13);
 	fmt.Println(v14);
 	//多重赋值
-	v13,v14 = v14,v13;
+	v13, v14 = v14, v13;
 	fmt.Println(v13);
 	fmt.Println(v14);
 	var nickname string;

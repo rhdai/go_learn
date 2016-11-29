@@ -19,12 +19,12 @@ func main() {
 	const u, v float32 = 0, 3// u = 0.0, v = 3.0,常量的多重赋值
 	const a, b, c = 3, 4, "foo"// a = 3, b = 4, c = "foo", 无类型整型和字符串常量
 
-	const(
+	const (
 		c0 = iota;
 		c1 = iota;
 		c2 = iota;
 	)
-	const(
+	const (
 		c3 = iota;
 	)
 	fmt.Println(c0)

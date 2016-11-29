@@ -12,7 +12,7 @@ func main() {
 	*/
 
 	//定义一个数组
-	var myArray [10]int = [10]int{1,2,3,4,5,6,7,8,9,10}
+	var myArray [10]int = [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	//基于数组创建数组切片
 	var mySlice []int = myArray[1:5];
 
@@ -32,7 +32,7 @@ func main() {
 	mySlice2 := make([]int, 5, 10)
 	//直接创建并初始化包含5个元素的数组切片:
 	mySlice3 := []int{1, 2, 3, 4, 5}
-	fmt.Println(mySlice1,mySlice2,mySlice3)
+	fmt.Println(mySlice1, mySlice2, mySlice3)
 
 
 	/*
@@ -40,7 +40,7 @@ func main() {
 	    	循环
 	    	range关键词
 	*/
-	for i := 0; i <len(mySlice3); i++ {
+	for i := 0; i < len(mySlice3); i++ {
 		fmt.Println("方式一：mySlice3[", i, "] =", mySlice3[i])
 	}
 
@@ -85,7 +85,7 @@ func main() {
 
 }
 
-func printArry(arr []int)  {
+func printArry(arr []int) {
 	for i, v := range arr {
 		fmt.Println("arr[", i, "] =", v)
 
